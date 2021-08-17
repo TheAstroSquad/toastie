@@ -24,6 +24,8 @@ README based on https://github.com/nerdsinspace/leaky-leaky
 
 **Advisory**: August 17, 2021
 
+**Finder**: [MoonMan of AstroSquad](https://www.youtube.com/channel/UCYOqm-bSKqmAnDdP-MYFgdA)
+
 ### Vulnerability Scope
 This vulnerability affects all Animal Jam accounts.
 
