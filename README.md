@@ -37,8 +37,9 @@ This vulnerability seems to be caused by a failure to validate an account's emai
 
 To reproduce this issue an attacker needs to follow the following steps.
 
-   1. Send a post request to the password_reset endpoint
-   2. Specify the email address you want to use for the account
+   1. Create a post request to the password_reset endpoint
+   2. Specify the email address you want to use for the account in the post-data
+   3. Specify the username you want to use for the account in the post-data
 
 ### Resolution
 This vulnerability needs to be fixed on the server side level of Animal Jam api.
