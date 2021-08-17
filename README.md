@@ -30,7 +30,7 @@ README based on https://github.com/nerdsinspace/leaky-leaky
 This vulnerability affects all Animal Jam accounts.
 
 ### Description
-A malicious attacker can takeover a Animal Jam account without any authentication for the takeover. This allows a attacker to gain full access to the account, a example for this is impersonation for a famous player.   
+A malicious attacker can takeover a Animal Jam account without any authentication for the takeover. This allows a attacker to gain full access to the account, a example for the use of this is impersonation or selling of a account.   
 
 ### Reproduction
 This vulnerability seems to be caused by a failure to validate an account's email when a password reset happens. A attacker can imitate a password reset by sending a post request with certain post-data on the endpoint known as [https://api.animaljam.com/game_account/username/send_password_reset/desktop]. The endpoint will accept any email specified in the post-data.
