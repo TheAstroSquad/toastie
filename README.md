@@ -44,3 +44,5 @@ This vulnerability needs to be fixed on the server side level of Animal Jam api.
 ### Notes
 
 Animal Jam is a poorly written game with poor optimization and a CEO that is money hungry, allowing child predators onto the platform because it brings him money. If Animal Jam staff members are reading this, I would advise you to get predators off your game and start reading those in-game reports. The funny part of all of this is possibly that this is the simplest 0day exploit we've seen and proves the lack of security Animal Jam stated. Futhurmore, if you still want to play Animal Jam after this, we are quite disappointed.
+
+PoC was written by HellSec, you can find the original PoC [here](https://github.com/IRIS-Team/AnimalJam-0day)
